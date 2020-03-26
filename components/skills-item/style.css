@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.skills-item{
+    width: 530px;
+    height: 285px;
+    background-image: url(../../public/images/frontend.jpg);
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+}
+
+.skills-item-overlay{
+    height: 100%;
+    background: linear-gradient(90deg, rgba(54,209,250,0.7) 0%, rgba(112,107,248,0.9) 100%);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.skill-name{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: white;
+}
+.list-sub-skills{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    width: 80%;
+}
