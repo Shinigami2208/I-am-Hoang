@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+
+.about-me-title{
+    font-size: 2.8rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
+    color: #A8C299;
+    display: inline;
+}
+
+.about-me-title-underline{
+    border-bottom: 3px solid #FBD214;
+    width: 5rem;
+}
