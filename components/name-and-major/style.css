@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&display=swap');
+
+.my-name{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.my-major{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #A8C299;
+}
