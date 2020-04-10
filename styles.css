@@ -6,6 +6,7 @@
 
 header{
     background-color: #2B2C2C;
+    height: 65px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
@@ -13,7 +14,7 @@ header{
     font-size: 2rem;
     color: #FBD214;
     font-family: 'Crimson Text', serif;
-    font-weight: 800;;
+    font-weight: 800;
 }
 
 li {
@@ -26,7 +27,6 @@ a {
 
 .menu {
     display: flex;
-    align-items: center;
     font-size: 1.2rem;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -41,12 +41,16 @@ a {
 
 .menu li a {
     color: #FFFFFF;
+    position: relative;
 }
 
 .menu-border-underline{
     border-top: 1px solid #FBD214 ;
     width: 75%;
     display: none;
+    transition: 0.5 ease;
+    position: absolute;
+    margin-left: -50px;
 }
 
 .menu li a:hover{
@@ -56,6 +60,8 @@ a {
 
 .menu li a:hover .menu-border-underline {
     display: block;
+    transform: translate(50px, 0);
+    margin-left: 0px;
 }
 
 #bannner{
